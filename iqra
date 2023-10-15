@@ -1,0 +1,253 @@
+HTML CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Iqra Ahmed</h1>
+        <p>Web Developer & Designer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="circle-image">
+            <img src="C:\Users\Zaki\Downloads\meee.jpg" alt="Iqra Ahmed">
+        </div>
+        <p>
+            
+Iqra Ahmed is an enthusiastic and dedicated undergraduate student pursuing a Bachelor of Science in Artificial Intelligence (BS-AI) at Dawood University of Engineering and Technology. With a deep passion for the field of artificial intelligence, Iqra is committed to advancing her knowledge and skills to become a proficient AI professional.
+Iqra's academic journey at Dawood University has been marked by a strong work ethic and a thirst for learning. She has demonstrated a keen aptitude for the complexities of artificial intelligence and is consistently engaged in coursework that covers a range of AI-related topics, from machine learning to natural language processing.
+Beyond her academic pursuits, Iqra actively participates in extracurricular activities and initiatives within her university. She is eager to collaborate with peers and professors on research projects that explore cutting-edge AI technologies and their potential applications in various domains.
+As an undergraduate student with a strong foundation in AI and a thirst for knowledge, Iqra Ahmed represents the next generation of AI professionals, poised to shape the future of technology and innovation.
+
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>SMART IOT BASED DUSTBIN</h2>
+        <div class="project">
+            <div class="circle-image">
+                <img src="C:\Users\Zaki\Downloads\8fe46082-ec24-499f-99c8-f7b5da3ee2ee.jpeg" alt="Project 1">
+            </div>
+            <p>A smart dustbin, also known as a smart garbage bin or an intelligent waste bin, is a modern technological solution designed to improve waste management and help create cleaner, more efficient urban environments. </p>
+        </div>
+        <div class="project">
+            <h3>SCRATCH CAT GAME </h3>
+            <div class="circle-image">
+                <img src="C:\Users\Zaki\Downloads\58f88c70-76a5-4e16-82bb-2ccd926dfd44.jpeg" alt="Project 2">
+            </div>
+            <p>"Cat Adventures" is an interactive and educational Scratch game designed to entertain and engage players while helping them learn the basics of programming. In this game, players control a cute and curious cat character on an exciting journey through different levels, collecting items and avoiding obstacles. The game is built using the Scratch programming environment, making it accessible to beginners and fun for all ages.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="file:///C:/Users/Zaki/Downloads/Iqra's%20Resume%20(1).pdf" target="_blank">Download Resume (PDF)</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: iqraahmed.1307@gmail.com</p>
+        <p>Phone: 03190462290</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 IQRA AHMED</p>
+        <p><a href="https://github.com/iqrayahmed1">GitHub</a> | <a href="https://www.linkedin.com/in/iqra-ahmed-434147295/">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
+
+/*CSS STYILING*/
+
+.circle-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto; 
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project {
+    margin: 20px 0;
+    border: 4px solid #f39c12;
+    padding: 20px;
+    text-align: center; 
+}
+
+.project img {
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+
+body {
+    background-color: #1abc9c; 
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-style: italic; 
+    text-decoration: underline;
+}
+
+
+#about {
+    text-align: center;
+    margin: 20px;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto; 
+    display: block;
+    border: 8px solid #f1c40f; 
+
+#about p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #555; 
+}
+
+
+#skills {
+    text-align: center;
+    margin: 20px;
+}
+
+#skills h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333; 
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #27ae60; 
+}
+
+
+#projects {
+    background-color: #ecf0f1; 
+    margin: 20px;
+}
+
+.project {
+    margin: 20px 0;
+    border: 4px solid #f39c12; 
+    padding: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #3498db; 
+}
+
+.project p {
+    font-size: 16px;
+    color: #2ecc71; 
+}
+
+#resume {
+    text-align: center;
+    margin: 20px;
+}
+
+#resume h2 {
+    font-size: 24px;
+    color: #e74c3c; 
+}
+
+#resume a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin: 10px 0;
+    background-color: #3498db; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff; 
+    transition: background-color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #2980b9; 
+}
+
+#contact {
+    text-align: center;
+    margin: 20px;
+}
+
+#contact h2 {
+    font-size: 24px;
+    color: #e74c3c; 
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
