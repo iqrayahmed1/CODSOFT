@@ -1,0 +1,355 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text styles to the whole page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the hero section */
+#hero {
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    font-size: 2.8rem;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff5500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff7700;
+}
+
+/* Style the features section */
+#features {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.feature {
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h4 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.feature p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Style the testimonials section */
+#testimonials {
+    background-color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+/* Style the contact section */
+#contact {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
+form button {
+    background-color: #ff5500;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #ff7700;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+/* ... (Your existing CSS code) ... */
+
+/* Add some exciting features to your page */
+#features {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature h4 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.feature p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Animate the testimonial blocks */
+.testimonial {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.testimonial:hover {
+    transform: scale(1.02);
+}
+
+/* Add hover effect to the CTA button */
+.cta-button:hover {
+    background-color: #ff7700;
+    transform: scale(1.05);
+}
+/* ... (Your existing CSS code) ... */
+
+/* Add some exciting features to your page */
+#features {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 1rem;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+/* Add hover effect to the CTA button */
+.cta-button:hover {
+    background-color: #ff7700;
+    transform: scale(1.05);
+}
+/* ... (Your existing CSS code) ... */
+
+/* Add more color to your page */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header-title {
+    color: #333;
+}
+
+.section-title {
+    color: #ff5500;
+}
+
+/* Add colorful backgrounds and text to the features section */
+#features {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.feature {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Add colorful background and text to the testimonials section */
+#testimonials {
+    background-color: #ff5500;
+    color: #fff;
+}
+
+.testimonial {
+    background-color: #ff7700;
+    color: #fff;
+}
+
+/* Add colorful background and text to the contact section */
+#contact {
+    background-color: #ff5500;
+    color: #fff;
+}
+
+/* Style the CTA button with colorful background and text */
+.cta-button {
+    background-color: #ff7700;
+    color: #fff;
+}
+
+/* ... (Your existing CSS code) ... */
+
+/* Add more color to your page */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header-title {
+    color: #ff5500;
+}
+
+.section-title {
+    color: #ff5500;
+}
+
+/* Add colorful backgrounds and text to the features section */
+#features {
+    background-color: #ffdd99;
+    text-align: center;
+}
+
+.feature {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Add colorful background and text to the testimonials section */
+#testimonials {
+    background-color: #ff5500;
+    color: #fff;
+}
+
+.testimonial {
+    background-color: #ffaa33;
+    color: #fff;
+}
+
+/* Add colorful background and text to the contact section */
+#contact {
+    background-color: #ff5500;
+    color: #fff;
+}
+
+/* Style the CTA button with colorful background and text */
+.cta-button {
+    background-color: #ffaa33;
+    color: #fff;
+}
